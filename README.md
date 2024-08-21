@@ -72,3 +72,32 @@ To replicate this project, follow the steps below:
 
 ## Project Structure
 
+```bash
+COVID19-Data-Analysis-Prediction/
+│
+├── data/
+│   └── covid19_data.csv        # Raw dataset used for analysis
+│
+├── analysis/
+│   ├── data_cleaning.R         # Script for data cleaning
+│   ├── data_visualization.R    # Script for data visualization
+│   └── modeling.R              # Script for predictive modeling
+│
+├── results/
+│   └── predictions.csv         # Final predictions of the model
+│
+└── FinalProject.Rmd            # R Markdown file for the entire project
+```
+
+
+## Results
+
+The final predictive model achieved a 92% accuracy rate in predicting COVID-19 death cases. The insights from the visualizations and the model can be used to understand the factors influencing death rates and to make data-driven decisions.
+
+## Contributors
+
+- **Kumaresh PV** - [LinkedIn](https://www.linkedin.com/in/kumaresh-pv)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
